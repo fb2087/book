@@ -11,6 +11,11 @@ justify-content: end;}
 .toptxt{color: white;}
 .top ul li{color: white; margin: 0 5px; font-size: 12px; font-weight: bold;}
 
-.search {width: 1200px; height: 160px; background-color: pink; margin: 0 auto;}
+.search {width: 1200px; height: 160px; background-color: pink; margin: 0 auto; display: flex;
+justify-content: center;}
 .logo{width: 20%; height: 100%; background-color: powderblue; display: flex; align-items: center;
 justify-content: center;}
+
+.space{width: 60%; height: 100%; background-color: salmon;}
+
+.count{width: 20%; height: 100%; background-color: skyblue;}
