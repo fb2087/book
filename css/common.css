@@ -31,7 +31,7 @@ width: 100px; height: 100%;}
 .count{width: 20%; height: 100%; display: flex; align-items: center;
 justify-content: center;}
 .count1{width: 190px; height: 100px; background-color: #fafafa; display: flex; align-items: center;
-justify-content: space-around; font-weight: bold;}
+justify-content: space-around; font-weight: bold; padding: 0 5px;}
 .count2{width: 50%; font-size: 12px;}
 .count3{width: 50%; font-size: 12px; text-align: right;}
 
