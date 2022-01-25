@@ -40,5 +40,19 @@ cursor: pointer; height: 50px;  transform: translateY(50%);}
 .book2{width: 100%; height: 1000px; background-color: pink;}
 .book2 .book2_1{width: 1200px; height: 100%; background-color: powderblue;
 margin: 0 auto; display: flex; justify-content: space-evenly;}
+
 .book2 .book2_1 .book2_2{width: 800px; height: 100%; background-color: salmon;}
+.book2 .book2_1 .book2_2 .title1{width: 100%; height: 60px; display: flex;
+align-items: center; flex-direction: row;}
+.title1 span{margin-left: 10px; color: #3e3e3e; font-size: 12px;}
+.book2_2_1{width: 100%; height: 940px; background-color: turquoise;
+display: flex; justify-content: space-evenly; flex-wrap: wrap;}
+.book2_2_1 li{width: 200px; height: 310px; background-color: violet; display: flex;
+justify-content: center; align-items: center; flex-direction: column;}
+.book2_2_1 li img{width: 130px; height: 180px;}
+.book2_2_1 li a{display: flex; flex-direction: column; justify-content: space-evenly; 
+align-items: center; height: 180px;}
+.text_box2{width: 130px; height: 100px; position: relative; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;}
+.text_box2 h3{position: absolute; left: 0; bottom: 0;}
+
 .book2 .book2_1 .book2_3{width: 400px; height: 100%; background-color: springgreen;}
