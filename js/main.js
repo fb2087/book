@@ -32,3 +32,18 @@ $(function(){
         next();
     });
 });
+
+$(function(){
+    $('.left2').click(function(){
+        $('.book1_2 li:last').prependTo('.book1_2');
+        $('.book1_2').css('margin-left',-180);
+        $('.book1_2').stop().animate({marginLeft:0},800);
+    });
+    $('.right2').click(function(){
+        $('.book1_2').stop().animate({marginLeft:-180},800,function(){
+            $('.book1_2 li:first').appendTo('.book1_2');
+            $('.book1_2').css({marginLeft:0});
+        });
+        
+    });
+});
