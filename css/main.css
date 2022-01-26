@@ -37,17 +37,17 @@ cursor: pointer; height: 50px; transform: translateY(-50%);}
 .book1 .right2{position: absolute; top:38%; right: 0; display: block;
 cursor: pointer; height: 50px;  transform: translateY(50%);}
 
-.book2{width: 100%; height: 1000px; background-color: pink;}
-.book2 .book2_1{width: 1200px; height: 100%; background-color: powderblue;
+.book2{width: 100%; height: 1000px;}
+.book2 .book2_1{width: 1200px; height: 100%;
 margin: 0 auto; display: flex; justify-content: space-evenly;}
 
-.book2 .book2_1 .book2_2{width: 800px; height: 100%; background-color: salmon;}
+.book2 .book2_1 .book2_2{width: 800px; height: 100%;}
 .book2 .book2_1 .book2_2 .title1{width: 100%; height: 60px; display: flex;
 align-items: center; flex-direction: row;}
 .title1 span{margin-left: 10px; color: #3e3e3e; font-size: 12px;}
-.book2_2_1{width: 100%; height: 940px; background-color: turquoise;
+.book2_2_1{width: 100%; height: 940px;
 display: flex; justify-content: space-evenly; flex-wrap: wrap;}
-.book2_2_1 li{width: 200px; height: 310px; background-color: violet; display: flex;
+.book2_2_1 li{width: 200px; height: 310px; display: flex;
 justify-content: center; align-items: center; flex-direction: column;}
 .book2_2_1 li img{width: 130px; height: 180px;}
 .book2_2_1 li a{display: flex; flex-direction: column; justify-content: space-evenly; 
@@ -55,4 +55,22 @@ align-items: center; height: 180px;}
 .text_box2{width: 130px; height: 100px; position: relative; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;}
 .text_box2 h3{position: absolute; left: 0; bottom: 0;}
 
-.book2 .book2_1 .book2_3{width: 400px; height: 100%; background-color: springgreen;}
+.book2 .book2_1 .book2_3{width: 400px; height: 100%;}
+.title2{width: 350px; height: 60px; display: flex; flex-direction: row; align-items: center;
+position: relative; margin: 0 auto;}
+.title2 a{position: absolute; right: 20px;}
+.powerbook{width: 350px; height: 700px;margin: 0 auto;
+border: 1px solid #3e3e3e; display: flex; flex-direction: column; align-items: center;}
+.powerbook .br{width: 280px; height: 150px; border-bottom: 1px solid #3e3e3e;
+display: flex; flex-direction: row; align-items: center;}
+.br .brimg{width: 100px; height: 100px; overflow: hidden; border-radius: 100% 100%;}
+.br .brimg img{width: 200px; height: 200px ;}
+.br .brtxt{width: 180px; height: 100px; margin-left: 20px; display: flex; flex-direction: column; align-items: flex-start;}
+.br .brtxt p{font-size: 14px; margin-top: 5px;}
+.banner{width: 100%; height: 240px; display: flex; justify-content: center; align-items: center;}
+.banner img{width: 320px; height: 180px;}
+
+.book3{width: 1200px; height: 230px; margin: 0 auto; display: flex; flex-direction: row;
+justify-content: space-around; align-items: center; background-color: tomato;}
+.book3 .book3_1{width: 550px; height: 142px; background-color: turquoise;}
+.book3 .book3_2{width: 550px; height: 142px; background-color: yellow;}
