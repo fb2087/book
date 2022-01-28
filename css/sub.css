@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@media(min-width:1200px){}
+
+.slide{width: 1200px; height: 420px; margin: 0 auto;
+position: relative; overflow: hidden;}
+.slide ul{width: 4800px; height: 100%; display:flex;  flex-direction: row;}
+.slide ul li{width: 1200px; height: 100%;}
+.slide ul li a{width: 100%; height: 100%;}
+.slide ul li a img{width: 100%; height: 100%;}
+.left{position: absolute; top:50%; display: block; font-size: 38px; color:#fff; line-height: 40px;
+cursor: pointer; height: 50px; transform: translateY(-50%);}
+.right{position: absolute; top:38%; right: 0; display: block; font-size: 38px; color:#fff; line-height: 40px;
+cursor: pointer; height: 50px;  transform: translateY(50%);}
+
+.boo1_bg{width: 100%; height: 400px; background-color: #e3e3e3;}
+.book1{width: 1200px; height: 400px; margin: 0 auto;
+overflow: hidden; position: relative;}
+.book1 .book1_1{width: 1100px; height: 100%; overflow: hidden; 
+margin: 0 auto;}
+.book1 .book1_2{width: 3780px; height: 100%; display: flex; flex-direction: row;}
+.book1 .book1_2 li{width: 180px; height: 300px; display: flex; justify-content: center;
+flex-direction: column; align-items: center; }
+.book1 .book1_2 li a{display: flex; flex-direction: column; justify-content: space-evenly; align-items: center; width: 130px; height: 180px;}
+.book1 .book1_2 li img{width: 130px; height: 180px;}
+.text_box{width: 130px; height: 150px; position: relative; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;}
+.text_box h3{position: absolute; left: 0; bottom: 0;}
+
+
+.book1 .book1_3{width: 100%; height: 80px; display: flex; flex-direction: row ;
+align-items: center;}
+.book1_3 h2{margin-left: 30px;}
+.book1 .book1_3 a{position: absolute; right: 20px;}
+
+
+.book1 .left2{position: absolute; top:50%; left: 0; display: block;
+cursor: pointer; height: 50px; transform: translateY(-50%);}
+.book1 .right2{position: absolute; top:38%; right: 0; display: block;
+cursor: pointer; height: 50px;  transform: translateY(50%);}
+
+.book2{width: 100%; height: 1000px;}
+.book2 .book2_1{width: 1200px; height: 100%;
+margin: 0 auto; display: flex; justify-content: space-evenly;}
+
+.book2 .book2_1 .book2_2{width: 800px; height: 100%;}
+.book2 .book2_1 .book2_2 .title1{width: 100%; height: 60px; display: flex;
+align-items: center; flex-direction: row;}
+.title1 span{margin-left: 10px; color: #3e3e3e; font-size: 12px;}
+.book2_2_1{width: 100%; height: 940px;
+display: flex; justify-content: space-evenly; flex-wrap: wrap;}
+.book2_2_1 li{width: 200px; height: 310px; display: flex;
+justify-content: center; align-items: center; flex-direction: column;}
+.book2_2_1 li img{width: 130px; height: 180px;}
+.book2_2_1 li a{display: flex; flex-direction: column; justify-content: space-evenly; 
+align-items: center; height: 180px;}
+.text_box2{width: 130px; height: 100px; position: relative; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;}
+.text_box2 h3{position: absolute; left: 0; bottom: 0;}
+
+.book2 .book2_1 .book2_3{width: 400px; height: 100%;}
+.title2{width: 350px; height: 60px; display: flex; flex-direction: row; align-items: center;
+position: relative; margin: 0 auto;}
+.title2 a{position: absolute; right: 20px;}
+.powerbook{width: 350px; height: 700px;margin: 0 auto;
+border: 1px solid #3e3e3e; display: flex; flex-direction: column; align-items: center;}
+.powerbook .br{width: 280px; height: 150px; border-bottom: 1px solid #3e3e3e;
+display: flex; flex-direction: row; align-items: center;}
+.br .brimg{width: 100px; height: 100px; overflow: hidden; border-radius: 100% 100%;}
+.br .brimg img{width: 200px; height: 200px ;}
+.br .brtxt{width: 180px; height: 100px; margin-left: 20px; display: flex; flex-direction: column; align-items: flex-start;}
+.br .brtxt p{font-size: 14px; margin-top: 5px;}
+.banner{width: 100%; height: 240px; display: flex; justify-content: center; align-items: center;}
+.banner img{width: 320px; height: 180px;}
+
+.book3{width: 1200px; height: 230px; margin: 0 auto; display: flex; flex-direction: row;
+justify-content: space-around; align-items: center;}
+.book3 .book3_1{width: 550px; height: 142px;}
+.book3 .book3_2{width: 550px; height: 142px;}
+
+.book3_2 .notice{width: 100%; height: 36px; display: flex; justify-content: space-between;
+flex-direction: row; align-items: center;}
+.notice2{width: 100%; height: 106px; display: flex; flex-direction: column; 
+justify-content: space-around;}
+.notice3{width: 100%; height: 25px; display: flex; justify-content: space-between; 
+flex-direction: row; border-bottom: 1px solid #3e3e3e;}
+.notice3 a{font-size: 14px; color:#202020;}
+.notice3 p{font-size: 14px; color: #616161;}
+
+
+
+
+
+
+
+
+
+
+
