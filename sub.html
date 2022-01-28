@@ -174,7 +174,18 @@
         </div>
     </div>
 
-
+    <div class="section2">
+        <div class="section2_1">
+            <div class="section2_1_1"><h2>판매자 책설명</h2></div>
+            <div class="section2_1_2">대여점용.양호</div>
+        </div>
+        <div class="section2_2">
+            <div class="section2_2_1"><h2>책소개</h2></div>
+            <div class="section2_2_2"></div>
+        </div>
+        <div class="section2_3"></div>
+        <div class="section2_4"></div>
+    </div>
 
 
 
@@ -228,7 +239,7 @@
             for (var i = 0; i < best.length; i++) {
 
                 $(".section1 .book .book2 a").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-                $(".text_box").eq(i).append("<h5>" + msg.documents[i].title + "</h5>");
+                $(".section2_2_2").eq(i).append("<p>" + msg.documents[i].contents + "</p>");
                 $(".text_box").eq(i).append("<h3>" + msg.documents[i].price + "원</h3>");
             }
 

@@ -33,9 +33,21 @@ justify-content: space-evenly; align-items: center; margin-left: 20px;}
 .book3 p{font-size: 14px; color: #616161; margin-left: 90px; margin-top: -15px;}
 
 
+.section2{width: 1200px; height: 1500px; margin: 0 auto;
+}
+.section2_1{width: 100%; height: 130px; display: flex; flex-direction: row;}
+.section2_1_1{width: 285px; height: 100%; display: flex; justify-content: center;
+align-items: center;}
+.section2_1_2{width: 915px; height: 100%;  border-bottom: 1px solid #d3d3d3;
+font-size: 16px; display: flex; align-items: center; font-weight: bold;}
 
-
-
+.section2_2{width: 100%; height: 185px; display: flex; flex-direction: row;}
+.section2_2_1{width: 285px; height: 100%; display: flex; justify-content: center;
+align-items: center; }
+.section2_2_1 h2{margin-left: -70px;}
+.section2_2_2{width: 915px; height: 100%; border-bottom: 1px solid #d3d3d3; display: flex;
+align-items: center;}
+.section2_2_2 p{color: #202020; font-size: 16px;}
 
 
 
