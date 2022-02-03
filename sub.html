@@ -187,14 +187,81 @@
             <div class="section2_3_1">
                 <div class="section2_3_1_1"><h2>판매자</h2></div>
                 <div class="section2_3_1_2">
-                    <a href="" class="bookkorea">북코리아</a>
+                    <a href="index.html" class="bookkorea">북코리아</a>
+                    <a href="index.html">문의하기</a>
                 </div>
             </div>
-        </div>
-        <div class="section2_4"></div>
+            <div class="section2_3_1_3">
+                    <div class="data">
+                        <div class="data1">
+                            <div class="data1_1"><p>배송비</p></div>
+                            <div class="data1_2"><p>3,000원</p></div>
+                            <div class="data1_1"><p>배송방법</p></div>
+                            <div class="data1_3"><p>일반택배(평균2.7일)</p></div>
+                        </div>
+                        <div class="data2">
+                            <div class="same1">
+                                <p>거래실적</p>
+                            </div>
+                            <div class="same2">
+                                <p>거래: 857건, 평점: 4.85점, 리뷰: 27건, 취소률: 4%</p>
+                            </div>
+                        </div>
+                        <div class="data3">
+                            <div class="same1">
+                                <p>배송정책</p>
+                            </div>
+                            <div class="same2">
+                                <p>구매가격에 따라 배송비 무료, 책 주문가격이 총 50000원 이상이면 배송비 무료</p>
+                            </div>
+                        </div>
+                        <div class="data4">
+                            <div class="same1">
+                                <p>군부대 배송여부</p>
+                            </div>
+                            <div class="same2">
+                                <p>군부대(사서함) 주문건 배송가능</p>
+                            </div>
+                        </div>
+                        <div class="data5">
+                            <div class="same1">
+                                <p>추가사항</p>
+                            </div>
+                            <div class="same2">
+                                <p>주문액수가 2,000원 이상일 경우만 책을 판매합니다.</p>
+                            </div>
+                        </div>
+                        <div class="data6">
+                            <div class="same1">
+                                <p>환불,반품,교환조건</p>
+                            </div>
+                            <div class="same2">
+                                <p>주문하신 도서와 실제 배송된 도서가 다를 경우를 제외하고 환불·반품은 불가합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="section2_4">
+                <div class="section2_4_1">
+                    <ul>
+                        <li><a href=""></a><div class="textbox"></div></li>
+                        <li><a href=""></a><div class="textbox"></div></li>
+                        <li><a href=""></a><div class="textbox"></div></li>
+                        <li><a href=""></a><div class="textbox"></div></li>
+                        <li><a href=""></a><div class="textbox"></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        <div class="section2_5">
+            <div class="section2_5_1"></div>
+            <div class="section2_5_2"></div>
+        </div>     
     </div>
 
+    <div class="section3">
 
+    </div>
 
     
     <footer>
@@ -248,6 +315,26 @@
                 $(".section1 .book .book2 a").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
                 $(".section2_2_2").eq(i).append("<p>" + msg.documents[i].contents + "</p>");
                 $(".text_box").eq(i).append("<h3>" + msg.documents[i].price + "원</h3>");
+            }
+
+        });
+
+        $.ajax({
+        method: "GET",
+        url: "https://dapi.kakao.com/v3/search/book?target=title",
+        data: { query: "기욤뮈소",size:5},
+        headers: { Authorization: "KakaoAK d2197b4e934e38bf96df42760d488fa9" }
+    })
+        .done(function (msg) {
+
+            
+            var best = document.getElementsByTagName('li');
+
+            for (var i = 0; i < best.length; i++) {
+
+                $(".section2_4_1 ul li a").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+                $(".textbox").eq(i).append("<h5>" + msg.documents[i].title + "</h5>");
+                $(".textbox").eq(i).append("<h3>" + msg.documents[i].price + "원</h3>");
             }
 
         });
